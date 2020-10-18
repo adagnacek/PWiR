@@ -1,0 +1,5 @@
+plik.txt: 2020 10 19/ 1-28-31- 2020 10 19/ 1-28-31( 0.000425900)
+plisdadsak.txt:  2020 10 19/ 1-26-48: Bledna nazwa pliku!
+plisdadsak.txt:  2020 10 19/ 1-25-46: Bledna nazwa pliku!
+plisdadsak.txt:  2020 10 19/ 1-25-41: Bledna nazwa pliku!
+plik.txt: 2020 10 19/ 1-23-11- 2020 10 19/ 1-23-11( 0.000310900)

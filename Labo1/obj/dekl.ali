@@ -1,0 +1,145 @@
+V "GNAT Lib v2020"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_CALENDAR
+RV NO_DELAY
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U dekl%b		dekl.adb		b56ad574 NE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.float_random%s  a-nuflra.adb	a-nuflra.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.img_lld%s	s-imglld.adb		s-imglld.ali
+Z system.img_real%s	s-imgrea.adb		s-imgrea.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U dekl%s		dekl.ads		5b3df0e7 EE NE OO PK IL
+
+D ada.ads		20200819050644 76789da1 ada%s
+D a-calend.ads		20200819050642 474d9720 ada.calendar%s
+D a-except.ads		20200819050644 a7106115 ada.exceptions%s
+D a-ioexce.ads		20200819050644 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20200819050644 bb51c45a ada.numerics%s
+D a-nuflra.ads		20200819050644 4056ab7a ada.numerics.float_random%s
+D a-stream.ads		20200819050644 119b8fb3 ada.streams%s
+D a-tags.ads		20200819050644 edddc8f0 ada.tags%s
+D a-textio.ads		20200819050644 aef4d56d ada.text_io%s
+D a-unccon.ads		20200819050644 0e9b276f ada.unchecked_conversion%s
+D dekl.ads		20201018220028 5b3df0e7 dekl%s
+D dekl.adb		20201018223304 47b8cca4 dekl%b
+D interfac.ads		20200819050646 5ab55268 interfaces%s
+D i-cstrea.ads		20200819050646 e53d8b8e interfaces.c_streams%s
+D system.ads		20200819050648 32a08138 system%s
+D s-conca3.ads		20200819050646 0b705ca5 system.concat_3%s
+D s-crtl.ads		20200819050646 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200819050646 54135002 system.exception_table%s
+D s-ficobl.ads		20200819050646 078245e4 system.file_control_block%s
+D s-imgint.ads		20200819050646 02dbe0c2 system.img_int%s
+D s-imglld.ads		20200819050646 f3220969 system.img_lld%s
+D s-imgrea.ads		20200819050646 9f9b9792 system.img_real%s
+D s-parame.ads		20200819050648 4752c4cb system.parameters%s
+D s-rannum.ads		20200819050648 99ade2f2 system.random_numbers%s
+D s-secsta.ads		20200819050648 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200819050648 a7318a92 system.soft_links%s
+D s-stache.ads		20200819050648 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200819050648 6b7a13f2 system.standard_library%s
+D s-stoele.ads		20200819050648 2dc34a04 system.storage_elements%s
+D s-traent.ads		20200819050648 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200819050648 5ecf7212 system.unsigned_types%s
+D s-wchcon.ads		20200819050648 1b7d22d2 system.wch_con%s
+G a e
+G c Z s b [showwektor dekl 5 14 none]
+G c Z s b [randomwektor dekl 6 14 none]
+G c Z s b [sortwektor dekl 7 14 none]
+G c Z s b [printfile dekl 8 14 none]
+G c Z s s [wektorIP dekl 3 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 12|1r6 2r6 3r6 4r5 5r5 6r5
+X 2 a-calend.ads
+36K13*Calendar 409e17 12|3w10 6r9
+42I9*Time<222I9> 12|44r11 45r11
+48I12*Year_Number{integer}
+49I12*Month_Number{integer}
+50I12*Day_Number{integer}
+54O12*Day_Duration{duration}
+56V13*Clock{42I9} 12|61s13 77s13
+64V13*Year{48I12} 12|71s43 86s36 86s136
+65V13*Month{49I12} 12|71s58 86s49 86s150
+66V13*Day{50I12} 12|71s73 86s63 86s164
+67V13*Seconds{54O12} 12|66s33 67s36 68s35 80s27 81s30 82s29 83s25 84s28 85s27
+112V14*"-"{duration} 12|78s15
+222I9 Time_Rep<long_long_integer>
+X 5 a-numeri.ads
+16K13*Numerics 32e17 12|2r10 5r9
+X 6 a-nuflra.ads
+41K22*Float_Random 74e30 12|2w19 5r18
+47R9*Generator<24|63R9> 12|18r12
+49F12*Uniformly_Distributed{float}
+51V13*Random{49F12}<24|71p13> 12|22s21
+53U14*Reset<24|100p14> 12|20s7
+X 9 a-textio.ads
+57K13*Text_IO 727e16 12|1w10 4r9
+64P9*File_Type 12|41r13 42r14
+66n23*In_File{66E9} 12|63r22
+66n32*Out_File{66E9} 12|59r32
+66n42*Append_File{66E9} 12|56r21
+99U14*Create 12|59s19
+114U14*Open 12|56s11 63s10
+129U14*Close 12|76s7
+312V13*End_Of_File{boolean} 12|73s17
+492V13*Get_Line{string} 12|74s19
+498U14*Put_Line 12|71s13 86s7
+508U14*Put_Line 12|13s10 70s13 74s10 79s7
+544X4*Name_Error 12|58r21 65r15
+X 11 dekl.ads
+1K9*dekl 5r35 6r41 7r39 10l5 10e9 12|8b14 88l5 88t9
+3A9*Wektor(float)<integer> 5r40 6r46 7r44 12|10r35 17r41 26r39
+5U14*ShowWektor 5>26 5>47 12|10b14 15l8 15t18
+5a26 Vect{3A9} 12|10b26 13r32
+5i47 Length{natural} 12|10b42 12r20
+6U14*RandomWektor 6=28 6>53 12|17b14 24l8 24t20
+6a28 Vect{3A9} 12|17b28 22m10
+6i53 Length{natural} 12|17b48 21r20
+7U14*SortWektor 7=26 7>51 12|26b14 38l8 38t18
+7a26 Vect{3A9} 12|26b26 31r16 31r26 32r27 33m16 33r29 34m16
+7i51 Length{natural} 12|26b46 29r20 30r23
+8U14*PrintFile 8>25 12|40b14 87l11 87t20
+8a25 FileName{string} 12|40b24 63r31 70r47 71r29 86r22
+X 12 dekl.adb
+12i11 I{integer} 13r38
+18r7 Gen{6|47R9} 20r13 22r28
+21i11 I{integer} 22r15
+27f7 SwapVar{float} 32m16 34r27
+29i11 I{integer} 30r30
+30i14 J{integer} 31r21 31r31 32r32 33r21 33r34 34r21
+41p7 File{9|64P9} 63m16 63r16 73r29 74r28 76m13 76r13
+42p7 Logs{9|64P9} 56m16 56r16 59m26 59r26 71r23 86r16
+44i7 T1{2|42I9} 61m7 66r41 67r44 68r43 71r48 71r64 71r77 78r17 80r35 81r38
+. 82r37 83r33 84r36 85r35 86r41 86r55 86r67
+45i7 T2{2|42I9} 77m7 78r12 86r141 86r156 86r168
+46o7 D{duration} 78m7 79r41 86r232
+48i7 HoursStart{integer} 66m13 67r49 68r48 71r91 80m7 81r43 82r42 86r79
+49i7 MinutesStart{integer} 67m13 68r64 71r107 81m7 82r58 86r95
+50i7 SecondsStart{integer} 68m13 71r125 82m7 86r113
+51i7 HoursEnd{integer} 83m7 84r41 85r40 86r182
+52i7 MinutesEnd{integer} 84m7 85r54 86r196
+53i7 SecondsEnd{integer} 85m7 86r212
+

@@ -1,0 +1,83 @@
+V "GNAT Lib v2020"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_CALENDAR
+RV NO_DELAY
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U main%b		main.adb		d63522f0 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W dekl%s		dekl.adb		dekl.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.img_lld%s	s-imglld.adb		s-imglld.ali
+
+D ada.ads		20200819050644 76789da1 ada%s
+D a-calend.ads		20200819050642 474d9720 ada.calendar%s
+D a-except.ads		20200819050644 a7106115 ada.exceptions%s
+D a-ioexce.ads		20200819050644 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200819050644 119b8fb3 ada.streams%s
+D a-tags.ads		20200819050644 edddc8f0 ada.tags%s
+D a-textio.ads		20200819050644 aef4d56d ada.text_io%s
+D a-unccon.ads		20200819050644 0e9b276f ada.unchecked_conversion%s
+D dekl.ads		20201018220028 5b3df0e7 dekl%s
+D interfac.ads		20200819050646 5ab55268 interfaces%s
+D i-cstrea.ads		20200819050646 e53d8b8e interfaces.c_streams%s
+D main.adb		20201018223640 64b1905a main%b
+D system.ads		20200819050648 32a08138 system%s
+D s-conca3.ads		20200819050646 0b705ca5 system.concat_3%s
+D s-crtl.ads		20200819050646 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200819050646 54135002 system.exception_table%s
+D s-ficobl.ads		20200819050646 078245e4 system.file_control_block%s
+D s-imglld.ads		20200819050646 f3220969 system.img_lld%s
+D s-parame.ads		20200819050648 4752c4cb system.parameters%s
+D s-secsta.ads		20200819050648 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200819050648 a7318a92 system.soft_links%s
+D s-stache.ads		20200819050648 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200819050648 6b7a13f2 system.standard_library%s
+D s-stoele.ads		20200819050648 2dc34a04 system.storage_elements%s
+D s-traent.ads		20200819050648 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200819050648 5ecf7212 system.unsigned_types%s
+D s-wchcon.ads		20200819050648 1b7d22d2 system.wch_con%s
+G a e
+G c Z b b [main standard 8 11 none]
+G r c none [main standard 8 11 none] [randomwektor dekl 6 14 none]
+G r c none [main standard 8 11 none] [sortwektor dekl 7 14 none]
+G r c none [main standard 8 11 none] [showwektor dekl 5 14 none]
+G r c none [main standard 8 11 none] [printfile dekl 8 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 12|1r6 2r6 4r5 5r5
+X 2 a-calend.ads
+36K13*Calendar 409e17 12|2w10 5r9
+42I9*Time<222I9> 12|11r12
+56V13*Clock{42I9} 12|16s10 18s10
+112V14*"-"{duration} 12|19s12
+222I9 Time_Rep<long_long_integer>
+X 7 a-textio.ads
+57K13*Text_IO 727e16 12|1w10 4r9
+508U14*Put_Line 12|14s4 21s4 23s4
+X 9 dekl.ads
+1K9*dekl 10e9 12|3w6 6r5
+3A9*Wektor(float)<integer> 12|10r10
+5U14*ShowWektor 12|20s4
+6U14*RandomWektor 12|15s4
+7U14*SortWektor 12|17s4
+8U14*PrintFile 12|24s4
+X 12 main.adb
+8U11*main 8b11 26l5 26t9
+9i4 Length{natural} 10r20 15r22 17r20 20r20
+10a4 Vect{9|3A9} 15m17 15r17 17m15 17r15 20r15
+11i4 T1{2|42I9} 16m4 19r14
+11i8 T2{2|42I9} 18m4 19r9
+12o4 D{duration} 19m4 21r34
+

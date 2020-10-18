@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>C:\Users\Ola\Desktop\PWIR\labo1.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2020\bin\src\lab0_1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 48" line=" 10" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2020\bin\src\lab0_1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 49" line=" 6" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2020\bin\src\lab0_1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 12" line=" 7" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2020\bin\src\lab0_1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 10" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2020\bin\src\lab0_1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2020\bin\src\lab0_1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2020\bin\src\lab0_1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 33" line=" 10" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2020\bin\src\lab0_1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 10" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2020\bin\src\lab0_2.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 11" line=" 7" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2020\bin\src\lab0_2.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Ola\Desktop\PWIR\labo1.gpr</vfs_project>
+      <vfs_file>C:\Users\Ola\Desktop\PWIR\src\dekl.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Ola\Desktop\PWIR\labo1.gpr</vfs_project>
+      <vfs_file>C:\Users\Ola\Desktop\PWIR\src\dekl.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Ola\Desktop\PWIR\labo1.gpr</vfs_project>
+      <vfs_file>C:\Users\Ola\Desktop\PWIR\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 5" line=" 14" >
+      <vfs_project>C:\Users\Ola\Desktop\PWIR\labo1.gpr</vfs_project>
+      <vfs_file>C:\Users\Ola\Desktop\PWIR\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 23" >
+      <vfs_project>C:\Users\Ola\Desktop\PWIR\labo1.gpr</vfs_project>
+      <vfs_file>C:\Users\Ola\Desktop\PWIR\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 25" line=" 14" >
+      <vfs_project>C:\Users\Ola\Desktop\PWIR\labo1.gpr</vfs_project>
+      <vfs_file>C:\Users\Ola\Desktop\PWIR\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 49" line=" 21" >
+      <vfs_project>C:\Users\Ola\Desktop\PWIR\labo1.gpr</vfs_project>
+      <vfs_file>C:\Users\Ola\Desktop\PWIR\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 49" line=" 21" >
+      <vfs_project>C:\Users\Ola\Desktop\PWIR\labo1.gpr</vfs_project>
+      <vfs_file>C:\Users\Ola\Desktop\PWIR\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 24" >
+      <vfs_project>C:\Users\Ola\Desktop\PWIR\labo1.gpr</vfs_project>
+      <vfs_file>C:\Users\Ola\Desktop\PWIR\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 31" >
+      <vfs_project>C:\Users\Ola\Desktop\PWIR\labo1.gpr</vfs_project>
+      <vfs_file>C:\Users\Ola\Desktop\PWIR\src\dekl.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 20" line=" 34" >
+      <vfs_project>C:\Users\Ola\Desktop\PWIR\labo1.gpr</vfs_project>
+      <vfs_file>C:\Users\Ola\Desktop\PWIR\src\dekl.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 86" >
+      <vfs_project>C:\Users\Ola\Desktop\PWIR\labo1.gpr</vfs_project>
+      <vfs_file>C:\Users\Ola\Desktop\PWIR\src\dekl.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 49" line=" 67" >
+      <vfs_project>C:\Users\Ola\Desktop\PWIR\labo1.gpr</vfs_project>
+      <vfs_file>C:\Users\Ola\Desktop\PWIR\src\dekl.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
